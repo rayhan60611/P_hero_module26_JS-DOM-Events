@@ -1,6 +1,10 @@
+body {
+  background-color: #7fffd493;
+}
 .section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .section-2 {
@@ -41,5 +45,10 @@ textarea {
 @media screen and (min-width: 577px) and (max-width: 900px) {
   .section {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 2200px) {
+  .section {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
