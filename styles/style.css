@@ -31,3 +31,15 @@ textarea {
   background-color: rgba(104, 127, 146, 0.289);
   border: 0;
 }
+
+@media screen and (max-width: 576px) {
+  .section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 900px) {
+  .section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
