@@ -12,7 +12,7 @@ document.getElementById("btn").addEventListener("click", function (event) {
     newDiv.classList.add("div");
 
     const newH1 = document.createElement("h1");
-    newH1.setAttribute("id", "h1");
+    newH1.setAttribute("class", "title");
     newH1.innerText = myInput.value;
 
     const newP = document.createElement("p");

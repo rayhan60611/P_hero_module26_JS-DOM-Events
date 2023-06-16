@@ -11,6 +11,8 @@ function style() {
     div.style.borderRadius = "15px";
   }
 
-  const myH1 = document.getElementById("h1");
-  myH1.style.textAlign = "center";
+  const myH1 = document.getElementsByClassName("title");
+  for (const h1new of myH1) {
+    h1new.style.textAlign = "center";
+  }
 }
