@@ -1,0 +1,33 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section-2 {
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  padding: 10px;
+  color: rgb(55, 20, 230);
+  background-color: rgba(72, 72, 71, 0.516);
+  border: 0;
+  font-weight: 800;
+}
+button:hover {
+  background-color: rgba(215, 84, 2, 0.833);
+}
+
+input {
+  padding: 10px;
+}
+input,
+textarea {
+  background-color: rgba(104, 127, 146, 0.289);
+  border: 0;
+}
